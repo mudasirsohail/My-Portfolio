@@ -135,6 +135,7 @@ p{
 .about-icons{
   height: 25px;
   width: 25px;
+  margin: 5px
 }
 .social-profiles-about{
  display: flex;
