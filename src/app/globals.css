@@ -1,0 +1,410 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: #669bbc;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+  font-style: italic bold;
+  text-decoration: underline #fca311;
+}
+h2{
+  color: #fca311;
+}
+p{
+  color: white;
+}
+
+/* css for maininfo  */
+.HomeContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.ChildContainer{
+  width:fit-content;
+  height: 250px;
+  margin: 70px;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+  color: white;
+}
+.exploremore{
+  border: 2px solid #fca311;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.exploremore:hover{
+  background-color: #003566;
+  border: 3px solid white;
+  color: white;
+  transition-duration: 300ms;
+}
+.green{
+  color:  #fca311;
+}
+.profilepicture{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%; 
+    margin-bottom: 20px;
+    margin-right: 55px;
+    box-shadow: 20px 20px #fca311 ;
+}
+.header-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 80px;
+  background-color: #003566;
+  color: white;
+}
+.header-buttons{
+  height: 20px;
+  width: 20px;
+}
+.headerbuttons:hover{
+  background-color: #fca311;
+  color: black;
+  transition-duration: 200ms;
+  border-radius: 50px;
+  height: 20%;
+  width: 150%;
+  text-align: center;
+  transition-duration: 300ms;
+}
+
+@media (max-width:900px){
+  .profilepicture{
+    width: 80vw;
+  }
+  .profilepicture{
+    display: none;
+  }
+
+}
+@media only screen and (max-width:650px) {
+  .ChildContainer{
+    width: 60%;
+    font-size: 30px;
+    align-items: center;
+  }
+  .header-button{
+    width: fit-content;
+    justify-content: center;
+    font-size: small;
+  }
+  h1{
+    margin: 50px
+  }
+  .exploremore{
+    width: 20%;
+    height: 20px;
+  }
+
+  
+}
+
+
+/* css for aboutme */
+p{
+  justify-content: space-evenly;
+}
+.aboutme{
+  height: 250px;
+  width: 80%;
+  margin-left: 10%;
+}
+.about-icons{
+  height: 25px;
+  width: 25px;
+}
+.social-profiles-about{
+ display: flex;
+ width: 15%;
+ justify-content: space-between;
+ margin-top: 15px; 
+}
+@media only screen and (max-width:750px) {
+  .aboutme{
+    height: 300px;
+    width: 80%; 
+  }
+  
+}
+
+
+/* // css for contact us page  */
+.parentcontact{
+  display: flex;
+  margin-left: 5%;  
+}
+.contact-text{
+  height: 20%;
+  width: 50%;
+  font-size: larger;
+  color: white;
+  justify-content: center;
+  margin: 40px;
+}
+.title{
+  font-size: xx-large;
+  color: #fca311;
+  
+}
+.contactus{
+  margin: 40px;
+}
+.footer-icons-contact{
+  height: 30px;
+  width: 30px;
+
+}
+.contact-icons{
+  display: flex;
+}
+
+ 
+.design{
+  height: 50px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 20px ;
+  margin: 8px;
+  background-color: #c4dff0;
+
+}
+.designMessage{
+  height: 70px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 20px ;
+  margin: 8px;
+  background-color: #c4dff0;
+}
+.button{
+  height: 50px;
+  width: 80%;
+  border-radius: 10px;
+  align-self: center;
+  margin: 8px;
+  background-color: #fca311;
+  
+}
+.button:hover{
+  background-color: #003566;
+  color: white;
+  transition-duration: 500ms;
+}
+.h1contact{
+  color: #fca311;
+  justify-content: center;
+  font-size: 45px;
+}
+
+
+ /* css for Skills */
+
+.HomeContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.parentContainer{
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.parentContainerSkills{
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  overflow: auto;
+  background-color: #f4d6a4;
+ } 
+.childContainer{
+  width: 320px;
+  height: 350px;
+  background-color: white;
+  border-radius:20px;
+  padding: 10px;
+  box-shadow: rgb(5, 6, 5);
+  margin: 10px;
+  box-shadow: white;
+  
+}
+.childContainerSkills{
+  width: 35%;
+  border-radius:20px;
+  padding: 10px;
+  margin: 10px;
+  flex-wrap: wrap;
+  overflow: auto;
+  animation: golaganda 1s ease-in 0s infinite forwards;
+}
+.childContainer:hover{
+
+  border: 4px solid #003566 ;
+  box-shadow: 10px 10px #003566;
+  transition-duration: 100ms;
+
+}
+.imageContainer{
+  height: 150px;
+  width: 100%;
+  background-color: #fca311;
+  border-radius: 20px;
+}
+.picture{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.headings{
+  font-size: larger;
+  margin: 5px;
+}
+.readmore{
+  height: 35px;
+  width: 50%;
+  border: 2px solid #fca311;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+.readmore:hover{
+  background-color:#fca311;
+  color: white;
+  transition-duration: 300ms;
+}
+
+
+/* css for footer  */
+.Footer{
+  height: 250px;
+  width: 100%;
+  background-color: #003566;
+}
+.footer-text{
+  font-style: bold ;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+  color: white;
+
+}
+.footer-icons{
+  height: 20px;
+  width: 20px;
+}
+.social-profiles{
+  display: flex;
+  width:15%;
+  justify-content: space-between;
+  margin-left: 42%;
+}
+.footer-text-last{
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  color: white;
+ 
+}
+
+
+@media only screen and (max-width:599px) {
+  .childContainer{
+    width: 60%;
+  }
+  
+}
+@media only screen and (max-width:450px) {
+  .childContainer{
+    width: 90%;
+  }
+}
+@keyframes golaganda{
+  0%{
+   border: 5px solid white;
+  }
+  20%{
+   border: 5px solid #669bbc ;
+  }
+  40%{
+   border: 5px solid #003566;
+  }
+  60%{
+   border: 5px solid #003566;
+  }
+  80%{
+    border: 5px solid #669bbc;
+  }
+  100%{
+   border: 5px solid white;
+  }
+ }
+
+
+/* css for projects */
+.parentContainerProjects{
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.childContainerProjects{
+  height: 300px;
+  width: 250px;
+  background-color: white;
+  border-radius:20px;
+  padding: 10px;
+  box-shadow: rgb(5, 6, 5);
+  margin: 10px;
+  box-shadow: white;
+}
+.childContainerProjects:hover{
+  border: 2px solid #fca311 ;
+  box-shadow: 10px 10px #fca311;
+  transition-duration: 100ms;
+}
+.project_pictures{
+  height: 50%;
+  width: 100%;
+}
+.clichere{
+  height: 50px;
+  width: 40%;
+  border: 3px solid #fca311;
+  justify-content: center;
+  margin: 60px;
+  border-radius: 10px;
+}
+.clichere:hover{
+  background-color: #fca311;
+  color: white;
+}
+
+@media only screen and () {
+  
+}
