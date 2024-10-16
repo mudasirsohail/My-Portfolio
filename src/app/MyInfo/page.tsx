@@ -12,7 +12,7 @@ export default function Myinfo(){
         <a href="https://www.linkedin.com/in/mudasir-sohail-98b399257/" className="exploremore"> Explore More </a>
       </div>
       <div id="round-image">
-        <img src="mypicture-1.jpeg" alt="mypicture" className="profilepicture"></img>
+        <img src="mypicture-1.JPEG" alt="mypicture" className="profilepicture"></img>
       </div>
       </div>
         </>
